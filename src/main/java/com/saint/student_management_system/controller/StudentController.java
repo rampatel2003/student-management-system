@@ -14,6 +14,6 @@ public class StudentController {
     public String home() {
 
         System.out.println(">>> HOME METHOD EXECUTED <<<");
-        return "index";
+        return "home/dashboard";
     }
 }
