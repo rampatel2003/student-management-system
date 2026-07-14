@@ -1,15 +1,23 @@
 <%@ include file="../layout/header.jsp" %>
 
-<div class="container mt-5">
+<%@ include file="../layout/navbar.jsp" %>
 
-    <h1 class="text-primary">
-        Student Management System
-    </h1>
+<div class="container mt-4">
+
+    <h2 class="fw-bold">
+
+        Dashboard
+
+    </h2>
 
     <hr>
 
     <p>
-        Dashboard Page
+
+        Welcome to Student Management System.
+
     </p>
+
 </div>
+
 <%@ include file="../layout/footer.jsp" %>
