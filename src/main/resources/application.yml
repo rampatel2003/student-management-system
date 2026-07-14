@@ -1,0 +1,21 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: student_management_system
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/student-management-system
+    username: postgres
+    password: Ram@6261
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
