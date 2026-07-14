@@ -6,7 +6,8 @@
 
         <a class="navbar-brand fw-bold" href="${pageContext.request.contextPath}/">
 
-            🎓 Student Management System
+            <i class="bi bi-mortarboard-fill me-2"></i>
+            Student Management System
 
         </a>
 
