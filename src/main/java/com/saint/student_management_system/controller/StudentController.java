@@ -16,4 +16,9 @@ public class StudentController {
         System.out.println(">>> HOME METHOD EXECUTED <<<");
         return "home/dashboard";
     }
+
+    @GetMapping("/students")
+    public String students() {
+        return "student/student-list";
+    }
 }
