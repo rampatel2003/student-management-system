@@ -69,13 +69,11 @@
 
                     <div class="col-lg-2 text-end">
 
-                        <button class="btn btn-primary">
-
+                        <a href="${pageContext.request.contextPath}/students/add"
+                           class="btn btn-primary">
                             <i class="bi bi-plus-circle"></i>
-
                             Add Student
-
-                        </button>
+                        </a>
 
                     </div>
 
