@@ -10,7 +10,7 @@
         </li>
 
         <li>
-            <a href="#">
+            <a href="${pageContext.request.contextPath}/students">
                 <i class="bi bi-people-fill"></i>
                 <span>Students</span>
             </a>
