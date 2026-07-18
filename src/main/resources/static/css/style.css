@@ -79,7 +79,7 @@ body {
 }
 
 .page-header {
-    margin-bottom: 60px;
+    margin-bottom: 55px;
 }
 
 .page-header h1 {
@@ -191,5 +191,43 @@ body {
 html {
 
     scroll-behavior: smooth;
+
+}
+
+.card-body {
+    padding: 25px;
+}
+
+.table-card {
+
+    border-radius: 18px;
+
+}
+
+.table thead th {
+    background: #F8FAFC;
+    color: #334155;
+    font-weight: 600;
+}
+
+.badge {
+    padding: 7px 12px;
+    font-size: 13px;
+}
+
+.btn-action {
+
+    width: 36px;
+    height: 36px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.toolbar-card {
+
+    padding: 24px;
 
 }
