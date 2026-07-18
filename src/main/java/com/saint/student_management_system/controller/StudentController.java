@@ -21,4 +21,9 @@ public class StudentController {
     public String students() {
         return "student/student-list";
     }
+
+    @GetMapping("/students/add")
+    public String addStudent() {
+        return "student/add-student";
+    }
 }
