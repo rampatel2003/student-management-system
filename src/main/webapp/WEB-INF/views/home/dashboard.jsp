@@ -2,97 +2,87 @@
 
 <%@ include file="../layout/navbar.jsp" %>
 
-<div class="container-fluid mt-4">
+<%@ include file="../layout/sidebar.jsp" %>
 
-    <h2 class="fw-bold mb-4">
-        Dashboard
-    </h2>
+<div class="main-content">
 
-    <div class="row g-4">
+    <div class="container-fluid">
 
-        <!-- Total Students -->
+        <div class="page-header">
+            <h1>Dashboard</h1>
+            <p>Welcome back, Admin.</p>
+        </div>
 
-        <div class="col-md-3">
+        <div class="row g-4">
 
-            <div class="card shadow-sm border-0">
+            <!-- Total Students -->
+            <div class="col-lg-6 col-md-6 mb-4">
 
-                <div class="card-body">
+                <div class="dashboard-card">
 
-                    <h6 class="text-muted">
-                        Total Students
-                    </h6>
+                    <div class="dashboard-icon">
+                        <i class="bi bi-mortarboard-fill"></i>
+                    </div>
 
-                    <h2 class="fw-bold">
-                        0
-                    </h2>
+                    <h5>Total Students</h5>
+
+                    <h2>0</h2>
 
                 </div>
 
             </div>
 
-        </div>
+            <!-- Departments -->
 
-        <!-- Departments -->
+            <div class="col-lg-6 col-md-6 mb-4">
 
-        <div class="col-md-3">
+                <div class="dashboard-card">
 
-            <div class="card shadow-sm border-0">
+                    <div class="dashboard-icon">
+                        <i class="bi bi-building"></i>
+                    </div>
 
-                <div class="card-body">
+                    <h5>Departments</h5>
 
-                    <h6 class="text-muted">
-                        Departments
-                    </h6>
-
-                    <h2 class="fw-bold">
-                        0
-                    </h2>
+                    <h2>0</h2>
 
                 </div>
 
             </div>
 
-        </div>
+            <!-- Courses -->
 
-        <!-- Courses -->
+            <div class="col-lg-6 col-md-6 mb-4">
 
-        <div class="col-md-3">
+                <div class="dashboard-card">
 
-            <div class="card shadow-sm border-0">
+                    <div class="dashboard-icon">
+                        <i class="bi bi-book-fill"></i>
+                    </div>
 
-                <div class="card-body">
+                    <h5>Courses</h5>
 
-                    <h6 class="text-muted">
-                        Courses
-                    </h6>
-
-                    <h2 class="fw-bold">
-                        0
-                    </h2>
+                    <h2>0</h2>
 
                 </div>
 
             </div>
 
-        </div>
+            <!-- Active Students -->
 
-        <!-- Active Students -->
+            <div class="col-lg-6 col-md-6 mb-4">
 
-        <div class="col-md-3">
+                <div class="dashboard-card">
 
-            <div class="card shadow-sm border-0">
+                     <div class="dashboard-icon">
+                         <i class="bi bi-person-check-fill"></i>
+                     </div>
 
-                <div class="card-body">
+                     <h5>Active Students</h5>
 
-                    <h6 class="text-muted">
-                        Active Students
-                    </h6>
+                     <h2>0</h2>
 
-                    <h2 class="fw-bold">
-                        0
-                    </h2>
-
-                </div>
+                 </div>
 
             </div>
 
